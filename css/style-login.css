@@ -1,0 +1,61 @@
+:root {
+    --primary: #6209DB;
+    --primary-hover: #a26eec;
+    --dark: black;
+    --grey: #f5f5f5;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+}
+
+
+#btn-init {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+
+#btn-init:hover {
+    background-color: var(--primary-hover);
+    border-color: var(--primary-hover);
+}
+
+#img-login {
+    margin: 0;
+    /* width: 25vw;     */
+    height: 100vh; 
+    position: relative;
+    object-fit: cover;
+}
+
+
+.carousel-control-next,
+.carousel-control-prev {
+    filter: invert(200%);
+    
+}
+
+.btn #btn-login-social {
+    margin-right: 1rem !important;
+    margin-left: 1rem !important;
+}
+
+i {
+    margin-right: 1rem;
+    display: inline-block;
+    font-size: 1.3rem;
+}
+
+#btn-login-social:hover {
+    background-color: var(--primary);
+    border-color: var(--primary) !important;
+    color: whitesmoke !important;
+}
+
+
+.table-head th {
+    font-size: .5rem !important;
+}

@@ -1,0 +1,53 @@
+:root {
+    --primary: #6209DB;
+    --primary-hover: #a26eec;
+    --dark: black;
+    --grey: #f5f5f5;
+}
+
+body {
+    transition: 500ms all; 
+}
+
+.container {
+    position: relative;
+    top: 10vh;
+}
+
+.card {
+    box-shadow: 1px 1px 5px var(--primary);
+}
+
+#c1:hover {
+    position: relative;
+    top: -5px;
+    color: white;
+    background-color: var(--primary);
+    transition: 500ms all;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pad: 30px 10%;
+}
+
+#navItem {
+    padding: 1rem 2rem;
+}
+
+@media (min-width: 992px) {
+
+#navItem h2, #navItem h3  {
+    font-size: 1.95rem !important;
+}
+#c2, #c2 {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.alto {
+    height: 70vh;
+}
+}
